@@ -122,10 +122,11 @@ h1 {
 /* Features */
 .features {
   height: 800px;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
   margin: 0 2em;
-  /* align-items: center; */
+  align-items: center;
   text-align: center;
   font-family: "Noto Sans Kayah Li", sans-serif;
 }
@@ -136,9 +137,15 @@ h1 {
 #features h1 {
   display: block;
   padding-top: 1em;
+  color: #85b440;
+  font-size: 5rem;
 }
 .block {
   border: solid 2px #85b440;
+  padding: 1em;
+  height: 150px;
+}
+.row-2 {
 }
 
 /* About us */
